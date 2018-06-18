@@ -14,7 +14,7 @@ puts "What do you want to eat?"
 eats = gets.chomp.downcase
 
 
-puts "How long will your stay be?"
+puts "How many nights are you staying in #{stay}?"
 
 nights = gets.chomp
 
@@ -25,4 +25,4 @@ nights = gets.chomp
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts "You will be travel"
+puts "You will be traveling to #{stay}. You plan on eating #{eats}. You will be staying in #{stay} for #{nights}."
